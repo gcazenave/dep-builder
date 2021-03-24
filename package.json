@@ -1,0 +1,17 @@
+{
+    "name": "dep-builder",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      
+    },
+    "scripts": {
+      "install": "bower install",
+      "build-bower": "vulcanize dependencies.html > build/dependencies.html --inline-css --inline-scripts",
+    },
+    "devDependencies": {      
+      "bower": "1.8.12",
+      "vulcanize": "1.16.0"
+    }
+  }
+  
