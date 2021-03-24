@@ -1,11 +1,6 @@
 {
     "entrypoint": "dependencies.html",
     "shell": "dependencies.html",
-    "extraDependencies": [
-      "manifest.json",
-      "bower_components/webcomponentsjs/*.js",
-      "*.js"
-    ],
     "lint": {
       "rules": ["polymer-2"]
     },
