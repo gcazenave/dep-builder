@@ -16,7 +16,7 @@ jobs:
       - name: Install Utils & Bower Packages
         run: npm install
       - name: Build App with Vulcanize
-        run: npm run build-vulcanize
+        run: npm run build-polymer
       - name: FTP deploy www folder
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:

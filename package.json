@@ -7,11 +7,13 @@
     },
     "scripts": {
       "install": "bower install",
-      "build-bower": "vulcanize dependencies.html > build/dependencies.html --inline-css --inline-scripts"
+      "build-vulcanize": "vulcanize dependencies.html > build/dependencies.html --inline-css --inline-scripts",
+      "build-polymer": "polymer build"
     },
     "devDependencies": {      
       "bower": "1.8.12",
-      "vulcanize": "1.16.0"
+      "vulcanize": "1.16.0",
+      "polymer-cli": "1.6.0"
     }
   }
   
